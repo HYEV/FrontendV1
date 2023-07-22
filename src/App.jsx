@@ -101,7 +101,7 @@ function App() {
         </div>
       </section>
       <section className="d-flex container justify-content-center aliagn-items-center w-100 section p-5">
-        <div className="row d-flex justify-content-center w-100">
+        <div className="row d-flex justify-content-center align-items-center w-100">
           <div className="col-md-6 d-flex align-content-center">
             <div className='d-flex w-100 flex-column'>
               <div className='d-flex justify-content-center flex-column w-100 mb-3'>

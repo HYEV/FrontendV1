@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/FrontendV1/static/css/main.98d6b992.css",
-    "main.js": "/FrontendV1/static/js/main.00328772.js",
+    "main.js": "/FrontendV1/static/js/main.dfebc662.js",
     "static/js/787.602993e3.chunk.js": "/FrontendV1/static/js/787.602993e3.chunk.js",
     "static/media/jacques-philippe-gollnick-2OcnCyCWHrI-unsplash.jpg": "/FrontendV1/static/media/jacques-philippe-gollnick-2OcnCyCWHrI-unsplash.7a675c597d799f8219d7.jpg",
     "static/media/9078266.jpg": "/FrontendV1/static/media/9078266.ef8efb16248fd0706391.jpg",
     "static/media/banner.jpeg": "/FrontendV1/static/media/banner.5cedbd9fb3b538a64edd.jpeg",
     "index.html": "/FrontendV1/index.html",
     "main.98d6b992.css.map": "/FrontendV1/static/css/main.98d6b992.css.map",
-    "main.00328772.js.map": "/FrontendV1/static/js/main.00328772.js.map",
+    "main.dfebc662.js.map": "/FrontendV1/static/js/main.dfebc662.js.map",
     "787.602993e3.chunk.js.map": "/FrontendV1/static/js/787.602993e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98d6b992.css",
-    "static/js/main.00328772.js"
+    "static/js/main.dfebc662.js"
   ]
 }

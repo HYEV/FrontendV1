@@ -63,131 +63,50 @@ p{
 
 
 
-/* For Desktop View */
-@media screen and (min-width: 1024px) {
-    .section{
-        height: 100vh;
-        
-    }
-}
- 
-/* For Tablet View */
-@media screen and (min-device-width: 768px)
-    and (max-device-width: 1024px) {
-    .section{
-        height:100vh;
-    }
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px)
-    and (orientation: portrait) {
-        .circle{
-            margin: 40px 0px 40px 0px;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-        }
-        .circle1{
-            width:150px;
-            height: 150px;
-            left: -10px
-        }
-        .circle2{
-            right: -20px;
-            width:150px;
-            height: 150px;
-        }
+    .circle{
+        margin: 40px 0px 40px 0px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    .circle1{
+        width:150px;
+        height: 150px;
+        left: -10px
+    }
+    .circle2{
+        right: -20px;
+        width:150px;
+        height: 150px;
+    }
     .section{
         height: auto;
     }
-}
- 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
-    and (orientation: landscape) {
-        .circle{
-            margin: 40px 0px 40px 0px;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-        }
-        .circle1{
-            width:150px;
-            height: 150px;
-            left: -10px
-        }
-        .circle2{
-            right: -20px;
-            width:150px;
-            height: 150px;
-        }
-        .section{
-            height: auto;
-        }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+   
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
     
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
- 
-/* For Mobile Phones Portrait or Landscape View */
-@media screen
-    and (max-device-width: 640px) {
-        .circle{
-            margin: 40px 0px 40px 0px;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-        }
-        .circle1{
-            width:150px;
-            height: 150px;
-            left: -10px
-        }
-        .circle2{
-            right: -20px;
-            width:150px;
-            height: 150px;
-        }
-        .section{
-            height: auto;
-        }
-    
-}
- 
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-        .circle{
-            margin: 40px 0px 40px 0px;
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-        }
-        .circle1{
-            width:150px;
-            height: 150px;
-            left: -10px
-        }
-        .circle2{
-            right: -20px;
-            width:150px;
-            height: 150px;
-        }
-        .section{
-            height: auto;
-        }
-    
-}
- 
-/* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px)
-    and (device-width: 320px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-    
-}
- 
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px)
-    and (min-device-width: 375px)
-    and (-webkit-min-device-pixel-ratio: 3) {
-    
-};

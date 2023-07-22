@@ -50,7 +50,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <section className="container d-flex justify-center align-items-center w-100 p-5 section">
+      <section className="container d-flex justify-center align-items-center w-100 p-5 headerSection">
         <div className="row w-100">
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-content-center">
             <div className='d-flex justify-content-center align-content-center flex-column'>

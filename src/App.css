@@ -90,6 +90,9 @@ p{
         height: 150px;
     }
     .section{
+        height: auto;
+    }
+    .headerSection{
         height: 100vh;
     }
     .title{

@@ -6,7 +6,7 @@ import Banner from './assets/banner.jpeg'
 import Section1 from './assets/9078266.jpg'
 import Section2 from './assets/jacques-philippe-gollnick-2OcnCyCWHrI-unsplash.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faFacebookSquare, faGoogle, faInstagram, faInstagramSquare, faTwitter, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import {  faFacebookSquare, faGoogle, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleMenuToggle = () => {
@@ -50,9 +50,9 @@ function App() {
           </div>
         </div>
       </nav>
-      <section className="container d-flex justify-center align-items-center w-100 p-5" style={{height:"90vh"}}>
+      <section className="container d-flex justify-center align-items-center w-100 p-5 section">
         <div className="row w-100">
-          <div className="col-md-6 d-flex justify-content-center align-content-center">
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center align-content-center">
             <div className='d-flex justify-content-center align-content-center flex-column'>
                   <h1 className='fw-bolder' style={{fontSize:"64px"}}>
                     Welcome to <br />HYEV
@@ -63,7 +63,7 @@ function App() {
             </div>
             
           </div>
-          <div className='col-md-6 position-relative d-flex justify-content-center align-content-center'>
+          <div className='col-md-6 col-sm-12 position-relative d-flex justify-content-center align-content-center'>
             <div className='designcircle1 circle1' style={{zIndex:"8"}}>
             </div>
             
@@ -73,7 +73,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="d-flex justify-center align-items-center w-100 p-5" style={{backgroundColor:"#ECECEC",height:"100vh"}}>
+      <section className="d-flex justify-center align-items-center w-100 p-5 section" style={{backgroundColor:"#ECECEC"}}>
         <div className="row w-100">
           
         <div className='col-md-6 position-relative d-flex justify-content-center align-content-center'>
@@ -100,7 +100,7 @@ function App() {
          
         </div>
       </section>
-      <section className="d-flex container justify-content-center align-items-center w-100 p-5" style={{height:"100vh"}}>
+      <section className="d-flex container justify-content-center align-items-center w-100 section p-5">
         <div className="row d-flex justify-content-center w-100">
           <div className="col-md-6 d-flex align-content-center">
             <div className='d-flex w-100 flex-column'>
@@ -126,7 +126,7 @@ function App() {
          
         </div>
       </section>
-      <section className="d-flex justify-center align-items-center w-100 p-5" style={{backgroundColor:"#ECECEC",height:"100vh"}}>
+      <section className="d-flex justify-center align-items-center w-100 p-5 section" style={{backgroundColor:"#ECECEC"}}>
         <div className="row w-100">
           
         <div className='col-md-6 position-relative d-flex justify-content-center align-content-center'>

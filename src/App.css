@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600&display=swap');
+
+html,body{
+    height: 100%;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 300
+}
+
+.nav-link{
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+p{
+    font-weight: 100;
+}
+
+.logo{
+    font-family: 'Anton', sans-serif;
+    font-weight:bolder;
+    font-size:50px;
+    margin:0
+}
+
+
+
+.circle{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.designcircle1{
+    position:absolute;
+    border-radius: 50%;
+    background-color: #BFDAF7;
+
+   
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    
+    left: 30px;
+}
+.circle2{
+    width: 200px;
+    height: 200px;
+    
+    right: 50px;
+}

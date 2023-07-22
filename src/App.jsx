@@ -54,10 +54,10 @@ function App() {
         <div className="row w-100">
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-content-center">
             <div className='d-flex justify-content-center align-content-center flex-column'>
-                  <h1 className='fw-bolder' style={{fontSize:"64px"}}>
+                  <h1 className='fw-bolder title' >
                     Welcome to <br />HYEV
                   </h1>
-                  <p style={{fontSize:"32px"}}>
+                  <p className='desc' >
                     Go Together, Go Better...
                   </p>  
             </div>
@@ -87,11 +87,11 @@ function App() {
           <div className="col-md-6 d-flex align-content-center">
             <div className='d-flex w-100 flex-column'>
               <div className='d-flex flex-column w-100'>
-                  <h1 className='fw-bold text-center mb-3' style={{fontSize:"50px"}}>
+                  <h1 className='fw-bold text-center heading mb-3' >
                     HYEV
                   </h1>
               </div>  
-                  <p style={{fontSize:"32px"}}>
+                  <p className='desc' >
                   HYEV is an online events manager specifically designed for universities. We provide a platform for event managers to sell tickets, connect with sponsors, and add exciting animations to their event websites. Join us and make your university events a huge success!
                   </p>  
             </div>
@@ -100,16 +100,16 @@ function App() {
          
         </div>
       </section>
-      <section className="d-flex container justify-content-center align-items-center w-100 section p-5">
+      <section className="d-flex container justify-content-center aliagn-items-center w-100 section p-5">
         <div className="row d-flex justify-content-center w-100">
           <div className="col-md-6 d-flex align-content-center">
             <div className='d-flex w-100 flex-column'>
               <div className='d-flex justify-content-center flex-column w-100 mb-3'>
-                  <h1 className='fw-bold' style={{fontSize:"50px"}}>
+                  <h1 className='fw-bold heading'>
                     Discover Exciting Events
                   </h1>
               </div>  
-                  <p style={{fontSize:"32px"}}>
+                  <p className='desc' >
                   HYEV is an online events manager specifically designed for universities. We provide a platform for event managers to sell tickets, connect with sponsors, and add exciting animations to their event websites. Join us and make your university events a huge success!
                   </p>  
             </div>
@@ -140,11 +140,11 @@ function App() {
           <div className="col-md-6 d-flex align-content-center">
             <div className='d-flex w-100 flex-column justify-content-center'>
               <div className='d-flex justify-content-center flex-column w-100'>
-                  <h1 className='fw-bold mb-3' style={{fontSize:"50px"}}>
+                  <h1 className='fw-bold mb-3 heading'>
                     Connect with sponsers
                   </h1>
               </div>  
-                  <p style={{fontSize:"32px"}} >
+                  <p className='desc'  >
                   Connect with sponsors who are interested in supporting university events and take your event to the next level.
                   </p>  
             </div>
@@ -154,10 +154,10 @@ function App() {
         </div>
       </section>
       <section className="d-flex justify-center mt-5 flex-column align-items-center w-100 p-5" style={{marginBottom:"100px"}}>
-              <h1 className='fw-bold mb-3' style={{fontSize:"50px"}}> 
+              <h1 className='fw-bold mb-3 heading'> 
                   About HYEV
               </h1>
-              <p style={{fontSize:"32px"}} className='text-center'>
+              <p  className='text-center desc'>
               HYEV is a comprehensive online events management platform designed specifically for universities. Our goal is to simplify the process of organizing and selling tickets for university events while providing a seamless experience for event managers and attendees.
               </p>  
       </section>

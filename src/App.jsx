@@ -168,13 +168,14 @@ function App() {
       </section>
       <footer className='w-100 h-100 p-5 mt-5'>
         <div className='mb-5'>
-        <ul className="navbar-nav d-flex flex-row justify-content-around ms-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav d-flex md:flex-row justify-content-around ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link text-black" href="#">PRIVACY POLICY</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-black" href="#">EVENTS</a>
-              </li><li className="nav-item">
+              </li>
+              <li className="nav-item">
                 <a className="nav-link text-black" href="#">ABOUT</a>
               </li>
               <li className="nav-item">

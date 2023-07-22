@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
@@ -7,13 +6,9 @@ import Banner from './assets/banner.jpeg'
 import Section1 from './assets/9078266.jpg'
 import Section2 from './assets/jacques-philippe-gollnick-2OcnCyCWHrI-unsplash.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSackDollar } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faFacebookF, faFacebookSquare, faGoogle, faInstagram, faInstagramSquare, faTwitter, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import {  faFacebookSquare, faGoogle, faInstagram, faInstagramSquare, faTwitter, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
- 
-
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
